@@ -65,7 +65,224 @@ h2 {
 }
 
 
+/* Start Mission */
+.my-mission h1 {
+    text-align: center;
+}
+.item div {
+    width: 30%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 20px;
+    border-radius: 10px;
 
+}
+.my-mission div img {
+    width: 50%;
+}
+.mission {
+    background-color: #f7e7fa;
+    padding: 2%;
+}
+.vission {
+    background-color: #e7faef;
+    padding: 2%;
+}
+.goal {
+    background-color: #ebe7fa;
+    padding: 2%;
+}
+
+
+/* Start Team */
+.team {
+    background-color: #f7e6e6;
+}
+.team-img {
+    width: 35%;
+    margin-right: 60px;
+}
+.team-text {
+    width: 65%;
+    margin-top: 4%;
+}
+.team-img img {
+    width: 100%;
+}
+.team-text p {
+    margin-bottom: 30px;
+}
+
+/* Start Community */
+.community-text {
+    width: 65%;
+    margin-top: 4%;
+}
+.community-img {
+    width: 35%;
+    margin-left: 50px;
+}
+.community-img img {
+    width: 100%;
+}
+.community-text p {
+    margin-bottom: 30px;
+}
+
+
+/* Start Form */
+#cta {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.80)), url(./images/pictures/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.cta-text {
+    width: 60%;
+    text-align: left;
+}
+.cta-form {
+    width: 30%;
+}
+.content{
+    color: #fff;
+    position: relative;
+}
+.cta-text {
+    width: 60%;
+    text-align: left;
+}
+.cta-form {
+    width: 40%;
+}
+
+.content .par{
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content span{
+    color: #F14C1A;
+    font-size: 65px
+}
+
+.form{
+    width: 250px;
+    height: 340px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 11%;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #F14C1A;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+/* Start Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #faf4ef;
+}
+footer h2 {
+    font-family: 'The Nautigal', cursive;
+}
+footer p {
+    color: gray;
+}
+footer span {
+    color: #F14C1A;
+}
 
 
 
