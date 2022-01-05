@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+section {
+    padding: 60px 120px 90px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+.flex {
+    display: flex;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 50px;
+    background-color: #F14C1A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn:hover {
+    background-color: #f14612;
+    box-shadow: 3px 3px 30px #a19f9f;
+}
+.colorized {
+    color: #0daf15;
+}
+
+
+
+
+
+
+
+
