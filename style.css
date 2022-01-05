@@ -36,6 +36,33 @@ h2 {
     color: #0daf15;
 }
 
+/* Start header */
+.header {
+    background-color: #f7e6e6;
+}
+.header-text {
+    width: 43%;
+}
+.header-img {
+    width: 57%;
+    position: relative;
+}
+.header div img {
+    width: 60%;
+    position: absolute;
+    top: -14%;
+    right: 0;
+}
+.header-text h1 {
+    margin-bottom: 10px;
+}
+.header-text p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+.header-img {
+    text-align: right;
+}
 
 
 
